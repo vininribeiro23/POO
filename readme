@@ -1,0 +1,46 @@
+Poo- Programação Orientada Objeto 
+
+ex:
+
+Objeto carro
+
+public class Carro{
+   Sting  cor;   //propriedades
+   int rodas;   //propriedades
+   String nome;  //propriedades
+   String marca; //propriedades
+   int portas;   //propriedades 
+   boolean ligado; //propriedades 
+   int lugares;   //propriedades 
+   double preco;  //propriedades 
+   int ano;    //propriedades 
+
+   //Metodos ligar//
+//o que esse carro pode fazer //
+   public void ligar() {
+
+    ligado = true;
+   }
+
+   //Metodo desligar //
+
+   public void desligar(){
+    ligado = false;
+   }
+}
+
+
+Palavras reservadas {string, int, boolean, doble}
+recebi tipos qual informaçao ela vai suportar 
+Sting{text}
+int{numeros}
+boolean{ true, ou false}
+double{ numeros que podem receber ponto (.) virgula(,)  }
+
+
+CLASS CARRO ela representa todos os objetos do mesmo tipo do tipo => carro.
+eu poderia cria um objeto tipo
+
+ford com base na classe => carro 
+poderia tambem ter outro objeto diferente tipo fiat mas 
+tanto o objeto Ford quando o objeto Fiat seriam do mesmo tipo ambos seriam carros com valores diferentem em propriedades 
